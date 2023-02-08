@@ -17,6 +17,7 @@ header {
     padding: 50px 0px;
     min-height: 300px;
     color: white;
+    text-align: center;
 }
 
 .conversion-container {
@@ -37,6 +38,17 @@ header {
     margin: 25px;
     padding: 0 15px;
 }
+
+@media only screen and (max-width: 750px) {
+    #length, #volume, #mass {
+        background-color: #273549;
+        width: 400px;
+        margin: 25px;
+        padding: 0 15px;
+    }
+}
+
+
 
 #unit {
     font-size: 36px;
